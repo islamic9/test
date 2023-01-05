@@ -1,0 +1,69 @@
+table{
+    max-width: 800px;
+    margin: 145px auto;
+    padding: 0 10px;
+    border-collapse: collapse;
+    box-shadow: 0px 1px 71px -6px grey;
+}
+
+thead{
+    background: rgb(255, 255, 255);
+}
+
+
+.header th{
+    color: white;
+}
+
+
+
+tr{
+    border-top: 1px  solid rgb(173, 173, 173) transparent;
+    border-bottom: 1px  solid rgb(173, 173, 173) transparent;
+}
+
+tr:hover{
+    border-top: 1px  solid rgb(173, 173, 173);
+    border-bottom: 1px  solid rgb(173, 173, 173);
+    cursor: pointer;
+    background: rgb(235, 235, 235);
+    color:  rgb(1,152,122);
+    transform: translate(100) ;
+}
+
+tr:active{
+    border-top: 1px  solid rgb(1,152,122);
+    border-bottom: 1px  solid rgb(1,152,122);
+    cursor: pointer;
+    background: rgba(1, 152, 122, 0.558);
+    color:  rgb(134, 59, 59);
+    transform: translate(100) ;
+}
+
+
+
+
+th, td{
+    border-top: 1px  solid rgb(173, 173, 173);
+    border-bottom: 1px  solid rgb(173, 173, 173);
+    padding: 25px 65px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+th{
+    background: rgb(1,152,122);
+    transition: 0.4s ease;
+}
+
+.green{
+    background:rgb(243,243,243);
+}
+
+.border-bottom{
+    border-bottom: 5px solid rgb(1,152,122);;
+}
+
+.border-bottom:hover{
+    border-bottom: 5px solid rgb(1,152,122);;
+}
